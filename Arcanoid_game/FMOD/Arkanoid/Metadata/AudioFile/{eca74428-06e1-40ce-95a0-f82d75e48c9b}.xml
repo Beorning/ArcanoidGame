@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{eca74428-06e1-40ce-95a0-f82d75e48c9b}">
+        <property name="assetPath">
+            <value>ambient_arkanoid.mp3</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>69.120000000000005</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{efe0a363-55a1-44b4-9713-7c0e9b082536}</destination>
+        </relationship>
+    </object>
+</objects>

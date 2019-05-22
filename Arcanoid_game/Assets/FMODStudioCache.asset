@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4978349037115226293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/song
+  guid: d06a0445057fbd4a9d87ce5d6e7eaccf
+  Banks:
+  - {fileID: 3916832757290079398}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 91637
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17,12 +40,37 @@ MonoBehaviour:
   - {fileID: 3916832757290079398}
   EditorEvents:
   - {fileID: 6675439440915215121}
+  - {fileID: -4978349037115226293}
+  - {fileID: 1201458613820012506}
   MasterBanks:
   - {fileID: 3916832757290079398}
   StringsBanks:
   - {fileID: 2979727520890731588}
-  stringsBankWriteTime: 636932140732952604
+  stringsBankWriteTime: 636932668026868716
   cacheVersion: 3
+--- !u!114 &1201458613820012506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: event:/song2
+  guid: 023ceca5f629544e9967c084b4d2aba9
+  Banks:
+  - {fileID: 3916832757290079398}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 69120
 --- !u!114 &2979727520890731588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36,11 +84,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: FMOD\Arkanoid\Build\Desktop\Master Bank.strings.bank
-  lastModified: 636932140732952604
+  lastModified: 636932668026868716
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 716
+    Value: 806
   Exists: 1
 --- !u!114 &3916832757290079398
 MonoBehaviour:
@@ -55,11 +103,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: D:\Github\Arcanoid_game\FMOD\Arkanoid\Build\Desktop\Master Bank.bank
-  lastModified: 636932140732932813
+  lastModified: 636932668026848764
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 468832
+    Value: 2083328
   Exists: 1
 --- !u!114 &6675439440915215121
 MonoBehaviour:
@@ -83,4 +131,4 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 2000
+  Length: 2875
